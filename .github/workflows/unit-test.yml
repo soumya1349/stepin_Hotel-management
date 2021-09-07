@@ -16,4 +16,8 @@ jobs:
     - name: Install Cunit
       run: sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
+<<<<<<< HEAD
       run:  make test -C 3_Implementation
+=======
+      run:  make test -C 3_Implementation
+>>>>>>> faaf25cdc24c766be74b0e75c36e1a4cced13303
