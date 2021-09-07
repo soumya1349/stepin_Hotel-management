@@ -9,7 +9,7 @@ In this project user can book a room,party hall,can select the programs conducte
 * To know the programs and services provided by the hotel before user book.
 
 ## Features
-1) Booking  Function  halls
+1) Booking  a party halls
 2) Booking Rooms and saving the customers data
 3) Book for the programs conducted by the hotel
 4) Display the Customer data with bill generated
