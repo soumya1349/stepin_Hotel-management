@@ -9,22 +9,33 @@ In this project user can book a room,party hall,can select the programs conducte
 * To know the programs and services provided by the hotel before user book.
 
 ## Features
-1)	Booking  Function  halls
+1) Booking  Function  halls
 2) Booking Rooms and saving the customers data
 3) Book for the programs conducted by the hotel
 4) Display the Customer data with bill generated
 
 
 ## High level requirements:
-      * Customers can check for availability of rooms and book the rooms.
-      * Customer can check for the availability of hall and book
-      * System should save the customer data
-      * System should display the Customers data with bill
+|ID|DESCRIPTION|CATEGORY|STATUS|
+|:-----|:--------------------------------|:----------------|:----------|
+|HR01|Customers can check for availability of rooms and book the rooms.|Technical|Implemented|
+|HR02|Customer can check for the availability of hall and book.|Technical|Implemented|
+|HR03|System should save the customer data.|Technical|Implemented|
+|HR03|Customers can book the programs Conducted by hotel.|Technical|Implemented|
+|HR04|System should display the Customers data with bill.|Technical|Implemented|
 ## Low level requirements:
-      * System should provide the choice to select the type of room.
-      * System should update the status of rooms and hall as booked and not booked.
-      * All the service/programs conducted must be added.
-      * If no rooms or halls are unavailable system should display it to the user/customer.
+|ID|DESCRIPTION|CATEGORY|STATUS|
+|:-----|:--------------------------------|:----------------|:----------|
+|LR01|System should provide the choice to select the type of room|HR01|Implemented|
+|LR02|System should update the status of rooms as booked and not booked|HR01|Implemented|
+|LR03|System should provide the choice to select the type of party hall|HR02|Implemented|
+|LR04|System should update the status of hall as booked and not booked|HR02|Implemented|
+|LR05|System should provide an choice to take up the programs|HR04|Implemented|
+|LR06|All the service/programs conducted must be added.|HR05|Implemented|
+|LR07|Bill is generated with the name of Customer with the booking status.|HR05|Implemented|
+
+
+ 
 
 
 
