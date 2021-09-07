@@ -1,7 +1,7 @@
 #include "stdio.h"
 #include "string.h"
 #include "stdlib.h"
-#include "conio.h"
+
 #include "Customer.h"
 #include "feature.h"
 #include "display_details.h"
@@ -26,7 +26,7 @@ void Entry()
                 printf("Choice the program:\n1.fire camp\n2.trekking\n");
                 scanf("%d",&ch1);
                 bill=program(ch1);
-                system("cls");
+                
                 Customer.billprice=Totalbill+bill;
                 
                }
@@ -79,7 +79,7 @@ int main()
     gets(Customer.nationality);
     printf("enter your email_id:");
     gets(Customer.email_id);
-    system("cls");
+
     Entry();
     
 
