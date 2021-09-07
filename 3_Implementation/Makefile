@@ -23,7 +23,7 @@ TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
 INC	= -Iinc\
 -Iunity
 
-all:
+all:$(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
 
@@ -38,7 +38,17 @@ build_test:
 run_test: build_test
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
+analyze: test memcheck staticcheck coverage sanitize_check
 
+staticcheck:
+	cppcheck --enable=all -iunity .
+
+memcheck:
+	valgrind ./$(TEST_OUTPUT)
+
+sanitize_check:
+	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) 
+	./$(TEST_OUTPUT)
 
 clean:
 	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
