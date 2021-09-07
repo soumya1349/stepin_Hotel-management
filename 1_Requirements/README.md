@@ -14,6 +14,18 @@ In this project user can book a room,party hall,can select the programs conducte
 3) Book for the programs conducted by the hotel
 4) Display the Customer data with bill generated
 
+## ***4 W's and 1 H***
+### Who
+Anyone who wants to book a Room or party hall in hotel.
+### What
+This project provides user interface to book more efficently with out actully visiting hotel.
+### When 
+Whenever a person wants to visit resorts or hotels for a holiday or wants to organize a party
+### Why
+As this project usefull for a people who need immediate booking or busy in his work and can't personally visit. 
+### How
+Implemented using structure, pointers, switches and other functionalities of C.
+
 
 ## High level requirements:
 |ID|DESCRIPTION|CATEGORY|STATUS|
