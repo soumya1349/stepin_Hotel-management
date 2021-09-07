@@ -23,10 +23,11 @@ TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
 INC	= -Iinc\
 -Iunity
 
-build:
+all:
 	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
-run: build
+
+run: all
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
 # Build and run of Unit test
