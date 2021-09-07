@@ -15,16 +15,16 @@ To know the programs and services provided by the hotel before user book.
 4) Display the Customer data with bill generated
 
 ## Requirements
-High level:
-       Customers can check for availability of rooms and book the rooms
-       Customer can check for the availability of hall and book
-       System should save the customer data
-       System should display the Customers data with bill
-Low level:
-       System should provide the choice to select the type of room.
-       System should update the status of rooms and hall as booked and not booked.
-       All the service/programs conducted must be added.
-       If no rooms or halls are unavailable system should display it to the     user/customer.
+### High level:
+      * Customers can check for availability of rooms and book the rooms.
+      * Customer can check for the availability of hall and book
+      * System should save the customer data
+      * System should display the Customers data with bill
+### Low level:
+      * System should provide the choice to select the type of room.
+      * System should update the status of rooms and hall as booked and not booked.
+      * All the service/programs conducted must be added.
+      * If no rooms or halls are unavailable system should display it to the user/customer.
 
 
 
