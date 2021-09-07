@@ -8,7 +8,7 @@
 void Entry()
 {
     int choice,number,type,ch1,ch2,bill,Totalbill,Room=0;
-    char c;
+    int c;
     printf("\n HOW CAN I HELP YOU\n");
     printf("\n 1.Book a room\n2.Book a party hall\n3.exit\n");
     scanf("%d",&choice);
@@ -72,13 +72,13 @@ int main()
     printf("***WELCOME TO NATIVE***\n");
     printf("Please enter your details before moving to the main page!\n");
     printf("please enter your name:");
-    gets(Customer.name);
+    scanf("%s",Customer.name);
     printf("enter your address:");
-    gets(Customer.address);
+    scanf("%s",Customer.address);
     printf("enter your nationality:");
-    gets(Customer.nationality);
+    scanf("%s",Customer.nationality);
     printf("enter your email_id:");
-    gets(Customer.email_id);
+    scanf("%s",Customer.email_id);
 
     Entry();
     
