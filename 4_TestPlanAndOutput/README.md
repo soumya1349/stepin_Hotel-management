@@ -13,11 +13,11 @@
 ## Low level Test plan
 | Test ID | Function name | Description | Return type | Valid Input |	Output|Type of Test | Status (PASS/FAIL) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| L_01 | is_i_j_k_valid | checks if the given i,j,k value is valid or not | boolean | i,j,k value between 0 and 2 | 0 and 1 | 0 | unit test | PASS |
-| L_02 | isIndexValid | checks if the given index is valid or not for a given i,j,k value| boolean | i,j,k,index value between 0 and 2 | 0 and 1| 0 | unit test | PASS |
 |LR01|book_room|check if choice type entered is valid |Int|1|500|unit test|PASS|
-|LR01|book_room|check if choice type entered is valid |Int|2|800|unit test|PASS|
-|LR01|book_room|check if choice type entered is valid |Int|3|1000|unit test|PASS|
-|LR01|book_hall|check if choice ch2 entered is valid |Int|1|500|unit test|PASS|
-|LR01|book_hall|check if choice ch2 entered is valid |Int|2|500|unit test|PASS|
+|LR02|book_room|check if choice type entered is valid |Int|2|800|unit test|PASS|
+|LR03|book_room|check if choice type entered is valid |Int|3|1000|unit test|PASS|
+|LR04|book_hall|check if choice ch2 entered is valid |Int|1|1000|unit test|PASS|
+|LR05|book_hall|check if choice ch2 entered is valid |Int|2|15000|unit test|PASS|
+|LR06|program|check if choice ch entered is valid |Int|1|500|unit test|PASS|
+|LR07|program|check if choice ch entered is valid |Int|2|800|unit test|PASS|
 
