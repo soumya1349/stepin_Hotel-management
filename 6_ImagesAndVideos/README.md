@@ -1,5 +1,6 @@
 # images (Results)
 ## Make Run
+![screen](https://github.com/soumya1349/stepin_Hotel-management/blob/ff0812a019cfc9ebfeaf69a9d6ce1402d2ae804b/6_ImagesAndVideos/make%20run.PNG)
 
 ## Entering Users Data
 ![screen](https://github.com/soumya1349/stepin_Hotel-management/blob/main/6_ImagesAndVideos/Entering%20data.PNG)
