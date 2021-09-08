@@ -8,3 +8,4 @@
 [![C/C++ CI](https://github.com/soumya1349/stepin_Hotel-management/actions/workflows/c-build.yml/badge.svg)](https://github.com/soumya1349/stepin_Hotel-management/actions/workflows/c-build.yml)
 [![cppcheck-action](https://github.com/soumya1349/stepin_Hotel-management/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/soumya1349/stepin_Hotel-management/actions/workflows/cppcheck.yml)
 [![Contribution Check - Git Inspector](https://github.com/soumya1349/stepin_Hotel-management/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/soumya1349/stepin_Hotel-management/actions/workflows/gitinspector.yml)
+[![Unit Testing - Unity](https://github.com/soumya1349/stepin_Hotel-management/actions/workflows/unity.yml/badge.svg)](https://github.com/soumya1349/stepin_Hotel-management/actions/workflows/unity.yml)
