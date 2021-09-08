@@ -16,7 +16,7 @@ In this project user can book a room,party hall,can select the programs conducte
 
 ## ***4 W's and 1 H***
 ### Who
-Anyone who wants to book a Room or party hall in hotel.
+Anyone who wants to book a Room or party hall in hotel/resorts.
 ### What
 This project provides user interface to book more efficently with out actully visiting hotel.
 ### When 
