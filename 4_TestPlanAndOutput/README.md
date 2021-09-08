@@ -18,5 +18,6 @@
 |LR01|book_room|check if choice type entered is valid |Int|1|500|unit test|PASS|
 |LR01|book_room|check if choice type entered is valid |Int|2|800|unit test|PASS|
 |LR01|book_room|check if choice type entered is valid |Int|3|1000|unit test|PASS|
-|LR01|book_hall|check if choice type entered is valid |Int|1|500|unit test|PASS|
+|LR01|book_hall|check if choice ch2 entered is valid |Int|1|500|unit test|PASS|
+|LR01|book_hall|check if choice ch2 entered is valid |Int|2|500|unit test|PASS|
 
