@@ -14,4 +14,6 @@
 ![screen](https://github.com/soumya1349/stepin_Hotel-management/blob/93952ee8330766925ce39cfda064b4620290265a/6_ImagesAndVideos/Choosing%202nd%20feature.PNG)
 
 ## Output (Booking Details)
+![screen](https://github.com/soumya1349/stepin_Hotel-management/blob/9b6cf154f342cc2cff984b0a82c1a34f03d600f4/6_ImagesAndVideos/Details_of%20hall_booking.PNG)
+
 
