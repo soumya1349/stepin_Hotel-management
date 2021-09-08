@@ -46,6 +46,9 @@ Implemented using structure, pointers, switches and other functionalities of C.
 |LR06|All the service/programs conducted must be added.|HR05|Implemented|
 |LR07|Bill is generated with the name of Customer with the booking status.|HR05|Implemented|
 
+## SWOT Analysis
+![screen](https://github.com/soumya1349/stepin_Hotel-management/blob/78770b0951447b678229276697f231fd1dbbd055/1_Requirements/swot.png)
+
 
  
 
