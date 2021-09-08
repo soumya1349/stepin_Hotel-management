@@ -9,3 +9,10 @@
 |HR03|System should save the customer data.|Customer data |save data in structure|save data in structure|
 |HR03|Customers can book the programs Conducted by hotel.|choosing options(Y/N)|program has been choosen|program has been choosen|
 |HR04|System should display the Customers data with bill.|Type of booking|Bill generation with the status of booking|Bill generation with the status of booking|
+
+## Low level Test plan
+| Test ID | Function name | Description | Return type | Valid Input |	Output|Type of Test | Status (PASS/FAIL) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| L_01 | is_i_j_k_valid | checks if the given i,j,k value is valid or not | boolean | i,j,k value between 0 and 2 | 0 and 1 | 0 | unit test | PASS |
+| L_02 | isIndexValid | checks if the given index is valid or not for a given i,j,k value| boolean | i,j,k,index value between 0 and 2 | 0 and 1| 0 | unit test | PASS |
+
