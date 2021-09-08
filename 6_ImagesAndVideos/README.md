@@ -16,4 +16,7 @@
 ## Output (Booking Details)
 ![screen](https://github.com/soumya1349/stepin_Hotel-management/blob/9b6cf154f342cc2cff984b0a82c1a34f03d600f4/6_ImagesAndVideos/Details_of%20hall_booking.PNG)
 
+## Unit test output
+![screen](https://github.com/soumya1349/stepin_Hotel-management/blob/a9dedce4f744f5154255e68f2f98f36799026938/6_ImagesAndVideos/unit_test.PNG)
+
 
